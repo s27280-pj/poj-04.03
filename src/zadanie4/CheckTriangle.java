@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class CheckTriangle {
     public static void main(String[] args) {
-        try {
 
+        try {
             Scanner x = new Scanner(System.in);
 
             System.out.println("Podaj bok a: ");
@@ -37,6 +37,5 @@ public class CheckTriangle {
         }catch (Exception e){
             System.out.println("BŁĄD");
         }
-
     }
 }

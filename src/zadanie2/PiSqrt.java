@@ -8,9 +8,8 @@ public class PiSqrt {
         double result = Math.sqrt(Math.PI);
 
         DecimalFormat df1 = new DecimalFormat("#.##");
-        String sqrtFormatted = df1.format(result);
+        String sqrtFormat = df1.format(result);
 
-
-        System.out.println(sqrtFormatted);
+        System.out.println(sqrtFormat);
     }
 }

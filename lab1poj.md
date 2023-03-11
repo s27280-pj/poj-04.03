@@ -108,7 +108,7 @@ WYJŚCIE:
 
 **Zadanie 9**
 Napisz funkcje, a następnie program, który sprawdzi czy dane słowo jest palindromem.
-Palindrom to słowo, które zapisane wspak jest takim samym słowem.
+zadanie9.Palindrom to słowo, które zapisane wspak jest takim samym słowem.
 Przykładem palindromu jest słowo: kajak.
 Znaki wczytujemy do tablicy statycznej typu char (zakładamy dla prostoty, że tablica ta jest 100-elementowa, następnie wczytujemy znaki, aż do napotkania końca znaku pliku (można to wywołać przy pomocy kombinacji klawiszy ctrl+d).
 Zakładamy, że wszystkie znaki są z małej litery (nie rozpatrujemy przypadku, że występują duże litery).

@@ -6,13 +6,10 @@ public class CheckDate {
     public static void main(String[] args) {
 
         try {
-
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Podaj numer miesiąca: ");
             int month = scanner.nextInt();
-
-            int days;
 
             switch (month) {
                 case 1:
@@ -55,7 +52,6 @@ public class CheckDate {
                     System.out.println("BŁĄD");
                     break;
             }
-
         }catch (Exception e){
             System.out.println("BŁĄD");
         }
